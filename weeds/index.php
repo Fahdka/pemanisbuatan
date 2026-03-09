@@ -21,7 +21,23 @@
     .card{
         background: #1e1e1e;
         border: none;
-        border-raduis: 1,5rem
+        border-raduis: 1,5rem;
+        padding: 2.5rem 2rem;
+        width: 100%;
+        max-width: 380px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0,6);
+    }
+    .form-control{
+        background: #2c2c2c;
+        border: none;
+        color: white;
+        height: 55px;
+        font-size: 1.1rem;
+    }
+    .form-control:focus{
+        background: #2c2c2c;
+        color: white;
+        box-shadow: 0, 0, 0, 0.25rem rgba(13, 110, 253, .25);
     }
 </body>
 </html>
